@@ -1,0 +1,51 @@
+{
+    "nutrientsAvoid" : [
+    {
+        "nutrient": "Fat",
+        "endorseUsers": 11,
+        "id": 1
+    },
+    {
+        "nutrient": "Saturated Fats",
+        "endorseUsers": 3,
+        "id": 2
+    },
+    {
+        "nutrient": "Protein",
+        "endorseUsers": 3,
+        "id": 3
+    },
+    {
+        "nutrient": "Sugar",
+        "endorseUsers": 3,
+        "id": 4
+    }
+ ],
+    "nutrientsAdvice" : [
+    {
+        "nutrient": "Fibre",
+        "endorseUsers": 32,
+        "id": 5
+    },
+    {
+        "nutrient": "Vitamin C",
+        "endorseUsers": 5,
+        "id": 6
+    },
+    {
+        "nutrient": "Fatty Acid",
+        "endorseUsers": 7,
+        "id": 7
+    },
+    {
+        "nutrient": "Omega-3",
+        "endorseUsers": 2,
+        "id": 8
+    },
+    {
+        "nutrient": "Carbohydrate",
+        "endorseUsers": 3,
+        "id": 9
+    }
+ ]
+}

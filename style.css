@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-height: 100vh;
+  background-color: #eee;
+  color: #8bc34a;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling main-chart container */
+.container {
+  width: 100%;
+  display: flex !important;
+}
+
+.avoid,
+.advice {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Individual list elements */
+.nutrient-info {
+  display: flex;
+  width: 90%;
+  margin: 20px 0px;
+  padding: 6px 0px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+/* Endorse users */
+.numbers {
+  background-color: #8bc34a;
+  color: white;
+  height: 100%;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+/* Children divs */
+.nutrient-info > div {
+  display: flex;
+  cursor: pointer;
+}
